@@ -4,39 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eliminación de Datos - MiBienestar</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: sans-serif; }
+        body {
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            line-height: 1.8;
+            background-color: #f9fafb;
+            color: #374151;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 30px 45px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e5e7eb;
+        }
+        h1, h2 {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-weight: 700;
+            color: #111827;
+            margin-top: 1.6em;
+            margin-bottom: 0.6em;
+        }
+        h1 {
+            font-size: 2.2em;
+            text-align: center;
+            border-bottom: 1px solid #d1d5db;
+            padding-bottom: 15px;
+            margin-bottom: 10px;
+        }
+        .meta-info {
+            text-align: center;
+            font-size: 0.9em;
+            color: #6b7280;
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 1.6em;
+            color: #6200EE;
+        }
+        p, li {
+            font-size: 1.05em;
+            margin-bottom: 1em;
+            text-align: justify;
+        }
+        ol, ul {
+            padding-left: 25px;
+        }
+        strong, b {
+            color: #1f2937;
+            font-weight: 600;
+        }
+        a {
+            color: #6200EE;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .note {
+            background-color: #f3f4f6;
+            border-left: 4px solid #6200EE;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+            font-style: italic;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            font-size: 0.9em;
+            color: #6b7280;
+        }
     </style>
 </head>
-<body class="bg-gray-50">
-    <div class="container mx-auto max-w-2xl px-4 py-8">
-        <div class="bg-white p-8 rounded-lg shadow-md">
-            <h1 class="text-2xl font-bold text-gray-800 mb-4">Solicitud de Eliminación de Cuenta y Datos</h1>
-            <p class="text-gray-600 mb-6">En MiBienestar, respetamos tu derecho a la privacidad y al control sobre tus datos. Puedes solicitar la eliminación de tu cuenta y de todos los datos asociados siguiendo los pasos que se indican a continuación.</p>
+<body>
+    <div class="container">
+        <h1>Instrucciones para la Eliminación de Datos</h1>
+        <p class="meta-info">Aplicación: <strong>MiBienestar</strong><br>Última actualización: 04 de julio de 2025</p>
 
-            <h2 class="text-xl font-semibold text-gray-800 mb-2">Pasos para solicitar la eliminación:</h2>
-            <ol class="list-decimal list-inside space-y-2 text-gray-600 mb-6">
-                <li>Abre tu aplicación de correo electrónico.</li>
-                <li>Redacta un nuevo correo dirigido a: <a href="mailto:leonardovalverde19@gmail.com" class="text-blue-600 hover:underline">leonardovalverde19@gmail.com</a></li>
-                <li>En el asunto del correo, por favor, escribe: "Solicitud de Eliminación de Datos".</li>
-                <li>En el cuerpo del correo, por favor, indica la dirección de correo electrónico de la cuenta que deseas eliminar.</li>
-            </ol>
+        <p>En MiBienestar, respetamos su derecho a la privacidad y le ofrecemos control total sobre su información. A continuación, se detallan las opciones disponibles para la eliminación de sus datos.</p>
 
-            <h2 class="text-xl font-semibold text-gray-800 mb-2">¿Qué datos se eliminarán?</h2>
-            <p class="text-gray-600 mb-6">Una vez recibida y verificada tu solicitud, se eliminarán de forma permanente todos los datos asociados a tu cuenta, incluyendo:</p>
-            <ul class="list-disc list-inside space-y-1 text-gray-600">
-                <li>Información de tu perfil (ID de usuario, email).</li>
-                <li>Todos los registros históricos de IMC y % de grasa.</li>
-                <li>Todos los registros históricos de sueño.</li>
-                <li>Todos los resultados del "Chequeo Rápido".</li>
-                <li>Todas las metas de salud que hayas establecido.</li>
-            </ul>
-            
-            <p class="text-gray-600 mt-6">El proceso de eliminación se completará en un plazo de 7 a 14 días laborables. Recibirás una confirmación por correo electrónico una vez que el proceso haya finalizado.</p>
-            
-            <p class="mt-8 text-sm text-gray-500">Gracias por usar MiBienestar.</p>
+        <h2>Opción 1: Eliminar el Historial de Registros (Dentro de la App)</h2>
+        <p>
+            Puede eliminar todos sus registros de salud (IMC, sueño, etc.) directamente desde la aplicación en cualquier momento. Esta acción es irreversible y borrará su progreso, pero <strong>no eliminará su cuenta</strong> (su inicio de sesión con correo y contraseña seguirá activo).
+        </p>
+        <ol>
+            <li>Abra la aplicación MiBienestar.</li>
+            <li>En la barra superior, pulse el menú de tres puntos (⋮).</li>
+            <li>Seleccione la opción <strong>"Limpiar Historial"</strong>.</li>
+            <li>Confirme su decisión en el diálogo de advertencia.</li>
+        </ol>
+
+        <h2>Opción 2: Eliminar la Cuenta y Todos los Datos Asociados</h2>
+        <p>
+            Si desea eliminar su cuenta de forma permanente, junto con todos los datos vinculados a ella (incluyendo su perfil, historial y metas), por favor, siga este proceso de solicitud por correo electrónico.
+        </p>
+        <h3>Pasos para la solicitud:</h3>
+        <ol>
+            <li>Abra su aplicación de correo electrónico.</li>
+            <li>Redacta un nuevo correo dirigido a: <a href="mailto:leonardovalverde19@gmail.com">leonardovalverde19@gmail.com</a></li>
+            <li>En el <strong>asunto</strong> del correo, escriba: <code>Solicitud de Eliminación de Cuenta</code></li>
+            <li>En el <strong>cuerpo</strong> del correo, indique claramente la <strong>dirección de correo electrónico</strong> asociada a la cuenta de MiBienestar que desea eliminar. Es importante que envíe este correo desde la misma dirección para que podamos verificar su identidad.</li>
+        </ol>
+
+        <div class="note">
+            <p><strong>Alcance de la eliminación:</strong> Al procesar su solicitud, se eliminarán de forma permanente e irrecuperable todos los datos asociados a su cuenta, incluyendo perfil de usuario, registros de IMC y sueño, resultados de chequeos rápidos y metas de salud.</p>
         </div>
+
+        <h2>Plazos y Confirmación</h2>
+        <p>
+            El proceso de eliminación de la cuenta se completará en un plazo de <strong>7 a 14 días laborables</strong> desde la recepción de su solicitud. Una vez que sus datos hayan sido eliminados de forma segura de nuestros sistemas, recibirá un correo electrónico de confirmación.
+        </p>
+        
+        <footer>
+            <p>Gracias por haber formado parte de la comunidad de MiBienestar.</p>
+        </footer>
     </div>
 </body>
 </html>
