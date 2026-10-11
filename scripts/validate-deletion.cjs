@@ -22,4 +22,6 @@ assert.doesNotMatch(html, /solo por correo electrónico/i, "Deletion isn't email
 assert.doesNotMatch(html, /<script\b/i, "Static legal page must be script-free");
 assert.doesNotMatch(html, /http:\/\//i, "Insecure HTTP reference");
 
+assert.match(html, /Retirar el consentimiento sin eliminar la cuenta/);
+assert.match(html, /Si la opción de retirada no aparece/);
 console.log("Legacy deletion page contract passed.");
